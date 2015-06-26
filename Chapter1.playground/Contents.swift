@@ -153,11 +153,45 @@ if numberToBeFactored / (inmultireaPrimeNumber * arrayListOfPrimeNumbers[arrayLi
 
 // Nu prea a iesit ce trebuie, dar nu imi dau seama ce trebuie facut ... Fuck it
 
-*/
+
 
 // Program 9
 
+var number:Double = -2.6
+
+if number > 0 {
+    number += 0.5
+    var roundedNumber = Int(number)
+} else {
+    number -= 0.5
+    var roundedNumber = Int(number)
+}
 
 
+
+// Program 10
+
+var pi:Double = 1
+var count = 0
+var result = 1.00
+
+for var i = 3; i < 10; i+=2 {
+    if count % 2 == 0 {
+        result = result + (1.00 / i)
+        count++
+    } else {
+        result = Double(1 / i)
+        count++
+    }
+    
+}
+
+Double(result)
+count
+
+// Nu stiu de ce nu merge, dar logica e ok
+*/
+
+// Program 12
 
 
